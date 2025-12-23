@@ -905,10 +905,28 @@
   - ContractorNFBoxSurvivalExtendedNitrogen
   - ContractorNFBoxSurvivalSheleg
   - ContractorNFBoxSurvivalExtendedSheleg
+  - ContractorNFBoxSurvivalDonk
+  - ContractorNFBoxSurvivalDonkSpicy
+  - ContractorNFBoxSurvivalDonkTeriyaki
+  - ContractorNFBoxSurvivalDonkDank
+  - ContractorNFBoxSurvivalDonkPizza
+  - ContractorNFBoxSurvivalDonkHonk
+  - ContractorNFBoxSurvivalDonkBerry
+  - ContractorNFBoxSurvivalDonkMoth
+  - ContractorNFBoxSurvivalDonkDink
   fallbacks:
   - ContractorNFBoxSurvival
   - ContractorNFBoxSurvivalNitrogen
   - ContractorNFBoxSurvivalSheleg
+  - ContractorNFBoxSurvivalDonk
+  - ContractorNFBoxSurvivalDonkSpicy
+  - ContractorNFBoxSurvivalDonkTeriyaki
+  - ContractorNFBoxSurvivalDonkDank
+  - ContractorNFBoxSurvivalDonkPizza
+  - ContractorNFBoxSurvivalDonkHonk
+  - ContractorNFBoxSurvivalDonkBerry
+  - ContractorNFBoxSurvivalDonkMoth
+  - ContractorNFBoxSurvivalDonkDink
 
 - type: loadoutGroup
   id: ContractorEncryptionKey

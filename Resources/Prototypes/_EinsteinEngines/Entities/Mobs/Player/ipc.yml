@@ -56,6 +56,7 @@
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
     - map: [ "enum.HumanoidVisualLayers.Hair" ]
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.NeckFluff" ]
     - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
     - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "mask" ]
@@ -188,6 +189,9 @@
     shiveringHeatRegulation: 2000
     normalBodyTemperature: 310.15
     thermalRegulationTemperatureThreshold: 25
+  - type: Damageable # COYOTE Add
+    damageContainer: IPC # COYOTE Add
+    damageModifierSet: IPC # COYOTE Add
   - type: Fixtures
     fixtures:
       fix1:
@@ -206,6 +210,7 @@
   parent: MobHumanDummy
   id: MobIPCDummy
   description: A dummy IPC meant to be used in character setup.
+  categories: [ HideSpawnMenu ] # CS - Not to be spawned
   components:
   - type: HumanoidAppearance
     species: IPC

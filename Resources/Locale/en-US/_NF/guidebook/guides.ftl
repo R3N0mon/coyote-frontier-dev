@@ -1,6 +1,7 @@
 # Base entries
 guide-entry-nf14 = Frontier Guide
 guide-entry-bank = NT Galactic Bank
+guide-entry-shifts-and-persistence = Shifts and Persistence
 guide-entry-piloting = Piloting
 guide-entry-startinggear = Starting Equipment
 guide-entry-hiring = Hiring Crew
@@ -98,6 +99,7 @@ guide-entry-shipyard-sparrow = Sparrow
 guide-entry-shipyard-skipper = Skipper
 guide-entry-shipyard-spirit = Spirit
 guide-entry-shipyard-stasis = Stasis
+guide-entry-shipyard-stringer = Stringer
 guide-entry-shipyard-surveyor = Surveyor
 guide-entry-shipyard-tide = Tide
 guide-entry-shipyard-vagabond = Vagabond

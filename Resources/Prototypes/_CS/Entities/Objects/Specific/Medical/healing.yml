@@ -1,31 +1,32 @@
 - type: entity
-  name: Repair Patch
-  description: A sealed, single-use adhesive patch containing a coagulation agent to patch up damaged areas. For synthetic use only.
+  name: repair patch
+  description: A sealed, single-use adhesive patch to patch up damaged areas. For synthetic use only.
   parent: BaseHealingItem
   id: RepairPatch
-#  suffix: Full
+  suffix: Full
   components:
-#  - type: Tag
-#    tags:
-#    - RepairPatch
+  - type: Tag
+    tags:
+    - RepairPatch
   - type: Sprite
     sprite: _CS/Objects/Specific/Medical/robotopicals.rsi
     state: synth_patch
-  - type: Item
-#    heldPrefix: RepairPatch
-    shape:
-    - 0,0,0,0 # baseitem is small to prevent medical pouch storage
+  - type: Construction
+    graph: RepairPatch
+    node: repairpatch
   - type: StaticPrice
-    vendPrice: 2500
+    vendPrice: 3000
   - type: Healing
+    delay: 2
     damageContainers:
     - Silicon
+    - IPC
     damage:
       types:
-        Blunt: -5 # not so good for blunt force trauma, which is 'coincidentally' the most common damage type.
-        Piercing: -10
-        Slash: -10
-        Structural: -1 # haha. use Autosolder.
+        Piercing: -20
+        Slash: -20
+        Blunt: -20
+        # Structural: -2.5 # please use Autosolder.
     bloodlossModifier: -8 # doesn't stop open hemorrhaging
     healingBeginSound:
       path: "/Audio/Items/Medical/brutepack_begin.ogg"
@@ -37,23 +38,32 @@
       params:
         volume: 1.0
         variation: 0.125
-#  - type: Stack
-#    stackType: RepairPatch
-#    count: 8
-#  - type: StackPrice
-#    price: 5
-
-#- type: entity
-#  id: RepairPatch1
-#  parent: RepairPatch
-#  suffix: Single
-#  components:
-#  - type: Stack
-#    stackType: RepairPatch
-#    count: 1
+  - type: Stack
+    stackType: RepairPatch
+    count: 10
+  - type: StackPrice
+    price: 5
 
 - type: entity
-  name: Repair Spray
+  id: RepairPatch1
+  parent: RepairPatch
+  suffix: Single
+  components:
+  - type: Stack
+    stackType: RepairPatch
+    count: 1
+
+- type: entity
+  id: RepairPatch10Lingering
+  parent: RepairPatch
+  suffix: 10, Lingering
+  components:
+  - type: Stack
+    lingering: true
+    count: 10
+
+- type: entity
+  name: repair spray
   description: A single-use spray gun to fill damaged areas with polyurethane-based expanding foam. For synthetic use only.
   parent: BaseHealingItem
   id: RepairSpray
@@ -71,18 +81,21 @@
   - type: StaticPrice
     vendPrice: 5000
   - type: Healing
+    delay: 1
     damageContainers:
     - Silicon
+    - IPC
     damage:
       types:
-        Blunt: -15
-        Piercing: -25
-        Slash: -25
-        Structural: -5 # very respectable
-        Cold: -20
-        Heat: -20
-        Shock: -20
+        # Piercing: -60 # Better if brutes are handled by the repair patch imo
+        # Slash: -60 # Ditto
+        # Structural: -10 # good, but please use autosolder.
+        Cold: -40
+        Heat: -40 # not useless, but please use autosolder.
+        Shock: -40
+        Bloodloss: -40
     bloodlossModifier: -10 # stops bleeding
+    ModifyBloodLevel: 50 # restores a lot of internal fluid
     healingBeginSound:
       path: "/Audio/Items/canopen.ogg"
       params:
@@ -95,7 +108,7 @@
         variation: 0.125
 
 - type: entity
-  name: Repair Spray+ # unobtainable. for now.
+  name: repair spray+ # unobtainable. for now.
   description: A single-use spray gun to fill damaged areas with polyurethane-based expanding foam. For synthetic use only.
   parent: [BaseHealingItem,RepairSpray]
   id: RepairSprayPlus
@@ -109,18 +122,19 @@
   - type: Healing
     damageContainers:
     - Silicon
+    - IPC
     damage:
       types:
         Blunt: -20
         Piercing: -30
         Slash: -30
-        Structural: -10 # very. good.
+        # Structural: -10 # very. good.
         Cold: -35
         Heat: -35
         Shock: -35
 
 - type: entity
-  name: Synthetic Emergency Autoinjector
+  name: synthetic emergency autoinjector
   parent: ChemicalMedipen
   id: RepairAutoinjector
   description: Prevents system failure and instantly restores the system partially. Always seek medical attention after averted system failure.
@@ -145,7 +159,7 @@
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     changeColor: false
-    emptySpriteName: dexpen_empty
+    emptySpriteName: robo0
   - type: Hypospray
     solutionName: pen
     transferAmount: 15
@@ -159,9 +173,9 @@
         maxVol: 15
         reagents:
         - ReagentId: Autosolder
-          Quantity: 10
+          Quantity: 20
         - ReagentId: Sylexalin
-          Quantity: 5
+          Quantity: 10
 
 - type: microwaveMealRecipe
   id: RecipeRepairAutoinjector
@@ -173,21 +187,22 @@
     BlankMediPen: 1
   reagents:
     Autosolder: 20
-    Sylexalin: 5
+    Sylexalin: 10
   recipeType: MedicalAssembler
 
 - type: microwaveMealRecipe
-  id: RecipeRepairPatch
-  name: Repair Patch
-  result: RepairPatch
+  id: RecipeRepairSpray
+  name: repair spray
+  result: RepairSpray
   time: 5
   group: Medicinal
   solids:
-    Gauze: 1
+    BlankMediPen: 1
+    MaterialCloth: 5
   reagents:
-    Autosolder: 1
-    Sylashizine: 1
-    Sylexalin: 1
+    Autosolder: 10
+    Sylashizine: 10
+    Sylexalin: 10
   recipeType: MedicalAssembler
 
 - type: latheRecipe
@@ -195,10 +210,8 @@
   id: RepairPatch
   materials:
     Steel: 250
-    Plastic: 1000
-    Gold: 400
-    Silver: 400
-  result: RepairPatch
+    Plastic: 100
+  result: RepairPatch1
   categories:
   - Engineering
   completetime: 5
@@ -208,7 +221,7 @@
   id: RepairSpray
   materials:
     Steel: 500
-    Plastic: 1500
+    Plastic: 500
     Gold: 500
     Silver: 500
   result: RepairSpray
