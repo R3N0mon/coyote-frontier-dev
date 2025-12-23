@@ -6,14 +6,19 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Pricing Adjustment
+
 - type: vessel
   id: Courier
   parent: BaseVessel
-  name: FSB Courier
+  name: LL1 Courier
   description: A compact cargo ship designed for hauling shipments.
-  price: 32000 # 19390 0.06 20553.4 + 10k EMU rental because Whatstone is a reasonable person who makes reasonable choices.
+  price: 48000 # Coyote pricing GridAppraisal 26673.36 + LL1 x1.1 + TileCost 19000(152x125) = 48340.696
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/courier.yml

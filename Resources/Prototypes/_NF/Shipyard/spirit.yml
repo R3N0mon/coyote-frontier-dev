@@ -6,14 +6,19 @@
 # GitHub: dustylens
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Pricing Update
+
 - type: vessel
   id: Spirit
   parent: BaseVessel
-  name: FSB Spirit
+  name: LL0 Spirit
   description: The FSB Spirit is a search and rescue shuttle for experienced Frontier medics.
-  price: 16000
+  price: 20500 # Coyote pricing GridAppraisal 12588.36 + LL0 x1.05 + TileCost 7400(74x100) = 20617.778
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/spirit.yml

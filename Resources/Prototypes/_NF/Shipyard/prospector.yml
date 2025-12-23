@@ -6,14 +6,19 @@
 # GitHub: ???
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Moved Ore Processor, Added Salvage Processor
+
 - type: vessel
   id: Prospector
   parent: BaseVessel
-  name: NC Prospector
+  name: LL1 Prospector
   description: A small mining vessel designed to assist salvage operations.
-  price: 21500 # 19706 0.05 20691.3
+  price: 33500 # Coyote pricing GridAppraisal 17597.86 + LL1 x1.1 + TileCost 14375(115x125) = 33732.646
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/prospector.yml

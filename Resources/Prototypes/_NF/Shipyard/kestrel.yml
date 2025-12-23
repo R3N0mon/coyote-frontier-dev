@@ -6,14 +6,19 @@
 # GitHub: ???
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Removed SalvageVend, Removed 1 Empty Crate Spawner, Added Material Reclaimer, Added Scrap Processor, Added Soda Dispenser, Added Booze Storage
+
 - type: vessel
   id: Kestrel
   parent: BaseVessel
-  name: NC Kestrel
+  name: LL1 Kestrel
   description: Once a local shipping lane freighter, this model has been converted for use in debris field mining and salvage operations.
-  price: 48000 # ~42700 0.1 46970
+  price: 75500 # Coyote pricing GridAppraisal 34448.255 + LL1 x1.3 + TileCost 30625(245x125) = 75407.7315
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/kestrel.yml
@@ -41,4 +46,4 @@
           availableJobs:
             ContractorInterview: [ 0, 0 ]
             PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]  
+            MercenaryInterview: [ 0, 0 ]

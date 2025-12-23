@@ -6,14 +6,18 @@
 # GitHub: ???
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - added Cargo Racks, Added Emus, Pricing Adjustment
 - type: vessel
   id: Bazaar
   parent: BaseVessel
-  name: SLI Bazaar
+  name: LL1 Bazaar
   description: The Bazaar is a personal service vessel designed to provide a platform for merchants to sell their goods, it features two locking cargo docks, a spacious cargo hold, and a mercenary post for shop security.
-  price: 75500 # 69820 0.05 73311
+  price: 148000 # Coyote pricing GridAppraisal 71337.36 + LL1 x 1.15 + TileCost 66125(529x125) = 148162.964
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bazaar.yml

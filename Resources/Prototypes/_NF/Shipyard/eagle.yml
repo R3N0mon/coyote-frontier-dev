@@ -2,14 +2,20 @@
 # GitHub: ThatOneGoblin25 (https://github.com/ThatOneGoblin25)
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
 # Engineering & Medical ship.
+# Coyote - Removed 1 Chemdispenser, Moved Medical Assembler, Added Exosuit Fabricator
+
 - type: vessel
   id: Eagle
   parent: BaseVessel
-  name: NM Eagle
+  name: LL2 Eagle
   description: "A modern, medium-sized engineering & medical vessel. Focused on responding to shuttle distress, the Eagle comes equipped to restore most crew and shuttles to good health."
-  price: 62500 # 52038 0.2 62445.6
+  price: 144000 # Coyote pricing GridAppraisal 41878.36 + LL2 x1.4 + TileCost 85500(342x250) = 144129.704
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/eagle.yml

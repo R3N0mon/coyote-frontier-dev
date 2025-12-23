@@ -6,14 +6,18 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Added Material Reclaimer, added Salvage Locker and Hardsuit, adjusted price
 - type: vessel
   id: Adder
   parent: BaseVessel
-  name: LVHI Adder
+  name: LL0 Adder
   description: A small maneuverable shuttle designed for mining. Manufactured by Langstad-Voigt Heavy Industries.
-  price: 18000 # 15898 0.05 16692.9
+  price: 25000 # Coyote pricing GridAppraisal 14807.36 + LL0 x1.1 + TileCost 9000(90x100) 25288.096
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/adder.yml

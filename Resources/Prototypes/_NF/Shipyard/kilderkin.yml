@@ -6,14 +6,19 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Moved ShadyCigs, Moved BarDrobe, Added ChefVend
+
 - type: vessel
   id: Kilderkin
   parent: BaseVessel
-  name: LVHI Kilderkin
-  description: "Spaceworthy bar/microbrewery with everything one needs to facilitate poor life choices: lots of booze, smokes, and lack of food. Manufactured by Langstad-Voigt Heavy Industries."
-  price: 47500 # 43005 0.1 47305.5
+  name: LL1 Kilderkin
+  description: "Spaceworthy bar/microbrewery with everything one needs to facilitate poor life choices: lots of booze, smokes, and bar food. Manufactured by Langstad-Voigt Heavy Industries."
+  price: 72000 # Coyote pricing GridAppraisal 35262.36 + LL1 x1.1 + TileCost 33000(264x125) = 71788.596
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/kilderkin.yml

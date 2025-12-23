@@ -6,14 +6,19 @@
 # GitHub: ???
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Pricing Adjustment
+
 - type: vessel
   id: Nugget
   parent: BaseVessel
-  name: SV Nugget
+  name: LL0 Nugget
   description: A flying hunk of wood and metal disguised as a kitchen shuttle. Not FDA approved.
-  price: 15950 # +1450 from 10% Markup
+  price: 27500 # Coyote pricing GridAppraisal 9041 + LL0 x1.05 + TileCost 18000(180x100) = 27493.05
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/nugget.yml

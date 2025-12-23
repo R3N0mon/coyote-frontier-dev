@@ -6,14 +6,18 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Removed Fridge, Added Nanomed Plus, adjusted price
 - type: vessel
   id: Apothecary
   parent: BaseVessel
-  name: FSB Apothecary
+  name: LL1 Apothecary
   description: A small medical and chemistry support vessel. Deployed by the Far Star Biotech company to provide aid and medical services to the Frontier.
-  price: 35000 # 29235 0.2 35082
+  price: 54000 # Coyote pricing GridAppraisal 23960.36 + LL1 x1.3 + TileCost 23000(184x125) = 54148.468
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/apothecary.yml

@@ -6,21 +6,27 @@
 # GitHub: ???
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
 #2025 facelift done by Possumongus on GITHUB
+# Coyote - Added Salvage Techfab
+
 - type: vessel
   id: Phoenix
   parent: BaseVessel
-  name: NR Phoenix
+  name: LL2 Phoenix
   description: A research and salvage vessel designed for deep space exploration.
-  price: 65500 # 58791 0.1 64670.1
+  price: 185500 # Coyote pricing GridAppraisal 52319.255 + LL2 x1.6 + TileCost 101750(407x250) = 185460.808
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/phoenix.yml
   guidebookPage: ShipyardPhoenix
   class:
   - Science
-  - Engineering
+  - Salvage #Coyote
   engine:
   - Plasma
 

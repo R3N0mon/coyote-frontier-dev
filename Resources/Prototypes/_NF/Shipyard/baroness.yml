@@ -6,14 +6,18 @@
 # GitHub: arimah
 # Discord: arimah
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - added service fab, pricing change
 - type: vessel
   id: Baroness
   parent: BaseVessel
-  name: BB Baroness
+  name: LL0 Baroness
   description: A small luxury cruiser for one or two people, with a lounge, a private bedroom, and a hell of a cockpit view.
-  price: 26000 # 22872 0.05 24015.6
+  price: 39500 # Coyote pricing AppraiseGrid 20984.36 + LL0 x1.05 + TileCost 17500(175x100) = 39533.578
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/baroness.yml

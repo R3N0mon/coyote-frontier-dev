@@ -6,14 +6,19 @@
 # GitHub: arimah
 # Discord: arimah
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Added Service Techfab, Replaced Freezer chest with Wall Freezer, Replaced Water Cooler with Sink
+
 - type: vessel
   id: PTS
   parent: BaseVessel
-  name: NC Personal Transport
+  name: LL0 Personal Transport
   description: A small transport shuttle with space for 4 passengers. Comes with the latest audio entertainment technology.
-  price: 16500 # 14787 0.05 15526.35
+  price: 24000 # Coyote pricing GridAppraisal 14151.36 + LL0 x1.05 + TileCost 9200(92x100) = 24058.928
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/pts.yml

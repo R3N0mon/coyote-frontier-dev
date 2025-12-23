@@ -6,14 +6,18 @@
 # GitHub: Tych0theSynth
 # Discord: Tych0
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+#  Coyote - added material reclaimer, added Scrap proccesor, slight decal change to match
 - type: vessel
   id: Bodkin
   parent: BaseVessel
-  name: BB Bodkin
+  name: LL1 Bodkin
   description: The smaller sibling to the Broadhead, the BB Bodkin is designed for rockhopping and salvage recovery.
-  price: 40000 #35506 0.1 39056.6
+  price: 67500 # Coyote pricing GridAppraisal 31,262.86 + LL1 x1.3 + TileCost 26875(215x125) = 67516.718
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bodkin.yml

@@ -6,21 +6,27 @@
 # GitHub: https://github.com/MoistBiscuits
 # Discord: 159375107855351808
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-# 
+# Coyote - Moved Ore Processor, Moved Salvage Techfab, Moved Salvage Lockers, Moved Salvage Suit Storage, Added Material Reclaimer, Added Scrap Processor
+# Added 6 Cargo Racks, Added Emu, Added Soda Dispenser
 
 - type: vessel
   id: Vagabond
   parent: BaseVessel
-  name: NT Vagabond
+  name: LL2 Vagabond
   description: A adaptable long-haul industrial freighter that pilots have adapted to many different purposes.
-  price: 61000 # 50579 0.2 60694.8
+  price: 191000 # Coyote pricing GridAppraisal 47667.86 + LL2 x1.5 + TileCost 119500(478x250) = 191001.79
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/vagabond.yml
   guidebookPage: ShipyardVagabond
   class:
   - Cargo
+  - Salvage #Coyote
   engine:
   - Plasma
 

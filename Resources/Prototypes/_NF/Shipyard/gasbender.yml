@@ -6,20 +6,27 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Flipped Disposals, Moved Material Recycler, Added Shower, Removed Engineer Locker, Removed Engineer Hardsuit Storage, Added Salvage Locker, Added Salvage Harsuit Storage,
+# Added Salvage Techfab, Removed Circuit Imprinter, Added Ore Processor, Added Scrap Processor
+
 - type: vessel
   id: Gasbender
   parent: BaseVessel
-  name: LVHI Gasbender
+  name: LL2 Gasbender
   description: The Gasbender is a medium-sized engineering vessel outfitted for deep space construction projects. Features atmospherics setup with mixing/ignition chamber. Designed to work in pair with smaller salvage ship. Manufactured by Langstad-Voigt Heavy Industries.
-  price: 83000 # ~74935 0.1 82428.5
+  price: 248000 # Coyote pricing GridAppraisal 60678.36 + LL2 x1.7 + TileCost 144750(579x250) = 247903.212
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/gasbender.yml
   guidebookPage: ShipyardGasbender
   class:
   - Atmospherics
+  - Salvage #Coyote
   engine:
   - Bananium
 

@@ -2,20 +2,26 @@
 # GitHub: AF-Buyrcsp2
 # Discord: Buyrcsp2
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Removed Shrine, Added Cargo Racks, Added Emu, Added Wall Charger
+
 - type: vessel
   id: Izakaya
   parent: BaseVessel
-  name: SSS Izakaya
+  name: LL2 Izakaya
   description: A medium-size, japanese-inspired restaurant/pub ship with a large dining area, and equally large kitchen.
-  price: 65000 # ~57808 0.1 63588.8
+  price: 260000 # Coyote pricing GridAppraisal 55007.04 + LL2 x1.4 + TileCost 182500(730x250) = 259509.856
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/izakaya.yml
   guidebookPage: ShipyardIzakaya
   class:
   - Kitchen
+  - Cargo #Coyote
   engine:
   - Uranium
 

@@ -6,20 +6,28 @@
 # GitHub: ThatOneGoblin25
 # Discord: thedaarkgoblin
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Added 8 Cargo Racks, Added 2 Emus, Added Ore Processor, Added Material Reclaimer, Added Scrap Processor, Added Salvage Techfab, Added Salvage Locker, Added Salvage Suit Storage
+# Added Electric Range, Added Reagent Grinder, Added Kitchen Knife, Added Rolling Pin, Replaced Booze Dispenser with Soda Dispenser
+
 - type: vessel
   id: Spectre
   parent: BaseVessel
-  name: LL2 Spectre # set as LL2 until someone gets it updated. Priced as being midline.
+  name: LL3 Spectre # Updated to LL3
   description: A large, attractive but dated vessel with a pure focus on research and development. It is capable of generating anomalies.
-  price: 135000 # 93186 0.2 111823.2 # COYOTE: 99136 * (1.35) ^= 135,000 (133,833.6)
+  price: 505500 # Coyote pricing GridAppraisal 93303.115 + LL3 x3.0 + TileCost 225600(752x300) = 505509.345
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/spectre.yml
   guidebookPage: Null
   class:
   - Science
+  - Salvage # Coyote
+  - Cargo # Coyote
   engine:
   - AME
 

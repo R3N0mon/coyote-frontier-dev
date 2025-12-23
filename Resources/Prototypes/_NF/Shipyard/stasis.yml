@@ -6,14 +6,19 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Remove Smart Fridge, Remove 1 Chemmaster, Replace Chemlocker with Empty Chemlocker, Add Biogen, Add Service Techfab
+
 - type: vessel
   id: Stasis
   parent: BaseVessel
-  name: FSB Stasis
+  name: LL2 Stasis
   description: A medium medical vessel providing cryogenic and support medical services for the traumas of deep space operations. Designed, developed and deployed by the Far Star Biotech company to render aid wherever it is needed.
-  price: 56000 # 15% tier 2
+  price: 133500 # Coyote pricing GridAppraisal 39927.04 + LL2 x1.5 + TileCost 73750(295x250) = 133640.56
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/stasis.yml

@@ -2,14 +2,20 @@
 # GitHub: CadenceArgent (https://github.com/CadenceArgent)
 # Discord: Cadence
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
 # Docking Hub Vessel, with basic service setup, reception desk, and a public garden.
+# Coyote - Add Autotune Vend, Add Material Silo
+
 - type: vessel
   id: Crossroads
   parent: BaseVessel
-  name: PHI Crossroads
+  name: LL1 Crossroads
   description: "A spacious and inviting service ship. The crossroads is designed to help with dock crowding, connect communities, and serve as anchors for gatherings."
-  price: 70000 #63452 0.1 69797.2
+  price: 129500 # Coyote pricing GridAppraisal 54196.36 + LL1 x1.15 + 69750(558x125) = 129365.996
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crossroads.yml

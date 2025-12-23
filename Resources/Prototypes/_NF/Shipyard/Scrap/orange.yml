@@ -1,9 +1,24 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Pricing Adjustment
+
 - type: vessel
   id: Orange
   parent: BaseVessel
-  name: SV Orange
+  name: LL0 Orange
   description: A cargo slash salvage shuttle made from scavenged wrecks, comes with some damage.
-  price: 18000 #Appraisal is 15800, +5% margin - TODO: fix this value, getting tests to pass - Whatstone
+  price: 32000 # Coyote pricing GridAppraisal 12141 + LL0 x1.1 + TileCost 18400(184x100) = 31,755.1
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/orange.yml

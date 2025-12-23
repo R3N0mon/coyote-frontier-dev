@@ -1,12 +1,24 @@
 # Author Info
+# GitHub: ???
 # Discord: LoakaOfTheWind
-#
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Remove Salvage EVA lockers, Remove Metal Benches, Add 2 Salvage Lockers with Hardsuits, Added Ore Processor, Added Scrap Processor
+
 - type: vessel
   id: Geode
   parent: BaseVessel
-  name: CLU Geode
+  name: LL1 Geode
   description: Built into a rock by the finest goblin engineers, this vessel has all the discrete trader needs to conduct business.
-  price: 51000 # 46016 0.1 50617.6
+  price: 98500 # Coyote pricing GridAppraisal 39988.36 + LL1 x1.2 + TileCost 50750(406x125) = 98736.032
   category: Medium
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/geode.yml

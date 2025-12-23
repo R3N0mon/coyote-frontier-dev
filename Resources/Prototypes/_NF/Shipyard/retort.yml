@@ -6,14 +6,19 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Pricing Update
+
 - type: vessel
   id: Retort
   parent: BaseVessel
-  name: FSB Retort
+  name: LL1 Retort
   description: A medium gas mining and engineering vessel designed and deployed by the Far Star Biotech corporation to provide infrastructure support for deep space operations.
-  price: 59000 # 53500 0.1 58850
+  price: 101000 # Coyote pricing GridAppraisal 40925.36 + LL1 x1.2 + TileCost 51875(415x125) = 100985.432
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/retort.yml

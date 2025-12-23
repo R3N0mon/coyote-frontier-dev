@@ -1,13 +1,24 @@
 # Author Info
 # GitHub: Cu1r (https://github.com/Cu1r/)
 # Discord: cu1r
-#
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Pricing Check
+
 - type: vessel
   id: Canister
   parent: BaseVessel
-  name: UAC Canister
+  name: LL0 Canister
   description: Whatever you're bringing, it won't fit. Seats two. Gravity included.
-  price: 8000
+  price: 8000 # Coyote pricing GridAppraisal 4555 + LL0 x1.05 + TileCost 3600(36x100) = 8382.75
   category: Micro
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/canister.yml

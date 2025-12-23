@@ -6,14 +6,19 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Remove Smart Fridge, Move Biofab, Add Chefvend
+
 - type: vessel
   id: Nightlight
   parent: BaseVessel
-  name: FSB Nightlight
-  description: The Far Star Biotech company's premier catering and service shuttle! Legally NOT a testbed for nutrient sequencing and biogenerative pattern research on humanoid physiology!  
-  price: 42000 # Botany bay
+  name: LL1 Nightlight
+  description: The Far Star Biotech company's premier catering and service shuttle! Legally NOT a testbed for nutrient sequencing and biogenerative pattern research on humanoid physiology!
+  price: 67500 # Coyote pricing GridAppraisal 30294.36 + LL1 x1.15 + TileCost 32875(263x125) = 67713.514
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/nightlight.yml

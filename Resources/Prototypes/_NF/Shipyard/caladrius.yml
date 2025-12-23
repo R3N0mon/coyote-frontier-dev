@@ -6,15 +6,20 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Remove Engi Techfab, Add Salvage Techfab, Add Ore Processor, Add Scrap Processor, Add Booze Dispenser, Add Service Techfab
+# Add Electric Range, Add Microwave
 
 - type: vessel
   id: Caladrius
   parent: BaseVessel
-  name: FSB Caladrius
+  name: LL3 Caladrius
   description: A medical carrier produced by the Far Star Biotech corporation. Designed for large scale colonization support, humanitarian relief and post-disaster investigation and recovery operations.
-  price: 200000 # 133217 0.5 199825.5
+  price: 680000 # Coyote pricing GridAppraisal 109688.04 + LL3 x3.0 + TileCost 350400(1168x300) = 679464.12
   category: Large
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/caladrius.yml

@@ -1,9 +1,25 @@
+# Author Info
+# GitHub: unknown
+# Discord: unknown
+
+# Maintainer Info
+# GitHub: unknown
+# Discord: unknown
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Updated to Material Reclaimer, Update Disposal Pipes, Removed Salvage Vendor, Added Salvage Techfab, Added Scrap Processor, Remove CargoDrobe, Add Material Silo, Add Cargo Racks, Add Emu
+# Add Shower, Add Drain, Add Sink, Replaced Bedroom Wall Locker, Update Piping Colour
+
 - type: vessel
   id: Hauler
   parent: BaseVessel
-  name: NC Hauler
+  name: LL2 Hauler
   description: A medium sized vessel specializing in long-haul salvage, mining, and cargo operations.
-  price: 72500 # 60302 0.2 72362.4
+  price: 220000 # Coyote pricing GridAppraisal 59914.86 + LL2 x1.6 + TileCost 124000(496x250) = 219863.776
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/hauler.yml

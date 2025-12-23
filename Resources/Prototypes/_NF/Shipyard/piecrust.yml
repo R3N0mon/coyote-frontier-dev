@@ -6,14 +6,19 @@
 # GitHub: https://github.com/MoistBiscuits
 # Discord: moistbiscuits
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Remove Glass Table, Add Biofab
+
 - type: vessel
   id: Piecrust
   parent: BaseVessel
-  name: NC Piecrust
+  name: LL1 Piecrust
   description: A combination animal ranch and pie bakery
-  price: 33500 # 30500 0.05 32025
+  price: 52000 # Coyote pricing GridAppraisal 27847.36 + LL1 x1.1 + TileCost 21375(171x125) = 52007.096
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/piecrust.yml

@@ -6,14 +6,19 @@
 # GitHub: ???
 # Discord: ???
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Remove Engi Techfab, Add Scrap Processor
+
 - type: vessel
   id: Comet
   parent: BaseVessel
-  name: NT Comet
+  name: LL1 Comet
   description: A mining and construction vessel intended to help build or repair quickly.
-  price: 62000 # 47721 0.3 62037.3
+  price: 91000 # Coyote pricing GridAppraisal 37879.86 + LL1 x1.3 + TileCost 41625(333x125) = 90868.818
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/comet.yml
@@ -29,7 +34,7 @@
   mapName: 'NT Comet'
   mapPath: /Maps/_NF/Shuttles/comet.yml
   minPlayers: 0
-  stations: 
+  stations:
     Comet:
       stationProto: StandardFrontierVessel
       components:

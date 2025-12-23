@@ -6,14 +6,18 @@
 # GitHub: arimah
 # Discord: arimah
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Added Service Techfab
 - type: vessel
   id: Bookworm
   parent: BaseVessel
-  name: BB Bookworm
+  name: LL0 Bookworm
   description: A cozy medium-size library for travellers who wish to relax with a book or perhaps a board game.
-  price: 29500 # ~26482 0.05 27806.1
+  price: 51000 # Coyote pricing GridAppraisal 23797.36 + LL0 x0.05 + TileCost 25800(258x100) = 50787.228
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bookworm.yml

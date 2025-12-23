@@ -6,14 +6,20 @@
 # GitHub: Nyozzl https://github.com/nyozzl
 # Discord: Nyozzl
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
 # Shuttle Notes:I liked the idea of a scrap church also 9kw is probably all thats needed to run it
-#
+# Coyote - Pricing Update
+
 - type: vessel
   id: Disciple
   parent: BaseVessel
-  name: NSV Disciple
+  name: LL0 Disciple
   description: A cheaply made amalgamation of religious ships. For the seasoned religious assistant.
-  price: 15000 # Appraises at 12179, ~25% margin - TODO: fix this value, getting tests to pass - Whatstone
+  price: 17500 # Coyote pricing GridAppraisal 5525.75 + LL0 x1.05 + TileCost 11500(115x100) = 17302.0375
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/disciple.yml

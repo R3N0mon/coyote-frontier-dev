@@ -6,14 +6,20 @@
 # GitHub: Tych0theSynth
 # Discord: Tych0
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
 # Inspired by the Tyne-Class lifeboat: https://en.wikipedia.org/wiki/Tyne-class_lifeboat
+# Coyote - Added Medical Bed
+
 - type: vessel
   id: Tyne
   parent: BaseVessel
-  name: BB Tyne
+  name: LL0 Tyne
   description: A small, agile lifeboat with an exterior deck and survivor cabin for search and rescue operations.
-  price: 21500 #19255 0.05 20217.75
+  price: 28000 # Coyote pricing GridAppraisal 16437.36 + LL0 x1.05 + TileCost 10800(108x100) = 28059.228
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/tyne.yml

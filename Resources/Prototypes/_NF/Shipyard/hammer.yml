@@ -6,14 +6,19 @@
 # GitHub: arimah
 # Discord: arimah
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Added Circuit Imprinter, Added Material Silo
+
 - type: vessel
   id: Hammer
   parent: BaseVessel
-  name: BB Hammer
+  name: LL1 Hammer
   description: A mobile engineering platform for deep-space repairs, upgrades and remodelling.
-  price: 38000 # 32107 0.15 36923.05
+  price: 61000 # Coyote pricing GridAppraisal 32144.615 + LL1 x1.1 + TileCost 25625(205x125) = 60984.0765
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/hammer.yml

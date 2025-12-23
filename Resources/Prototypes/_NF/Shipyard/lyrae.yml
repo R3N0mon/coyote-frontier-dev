@@ -6,14 +6,20 @@
 # GitHub: Tych0theSynth
 # Discord: Tych0
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
 # "Wait, are you serious? No man, I'm Vega!" - Ptolemy upon discovering Lyra, probably.
+# Coyote - Priding Adjustment
+
 - type: vessel
   id: Lyrae
   parent: BaseVessel
-  name: BB Lyrae
+  name: LL1 Lyrae
   description: A medium size science vessel with laboratories for both anomalous and xenoarchaeology research.
-  price: 60000 # 53624 0.1 58986.4
+  price: 110500 # Coyote pricing GridAppraisal 46812.36 + LL1 x1.3 + TileCost 49750(398x125) = 110606.068
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/lyrae.yml

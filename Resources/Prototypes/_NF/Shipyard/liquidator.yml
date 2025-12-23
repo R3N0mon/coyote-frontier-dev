@@ -6,14 +6,19 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - removed empty gas tank, added portable air scrubber, removed volumetric pump, added gas pump, added waste line to vent outside ship, added material silo, added ore proccesor, added 2 salvage lockers with hardsuits
+
 - type: vessel
   id: Liquidator
   parent: BaseVessel
-  name: LVHI Liquidator
+  name: LL1 Liquidator
   description: A small shipbreaker/salvage vessel equipped with everything a small crew need for extended work shift in deep space. Manufactured by Langstad-Voigt Heavy Industries.
-  price: 26000 # 23321 0.1 25653.1
+  price: 47000 # Coyote pricing GridAppraisal 20416.86 + LL1 x1.2 + TileCost 22375(179x125) = 46875.232
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/liquidator.yml

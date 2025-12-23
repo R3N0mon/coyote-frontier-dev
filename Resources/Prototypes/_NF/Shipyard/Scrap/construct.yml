@@ -1,9 +1,24 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Pricing Update
+
 - type: vessel
   id: Construct
   parent: BaseVessel
-  name: NT Construct
+  name: LL0 Construct
   description: A technically spacefaring vessel.  No livery.
-  price: 10500
+  price: 12000 # Coyote pricing GridAppraisal 8230.36 + LL0 x1.05 + TileCost 3400(34x100) = 12041.878
   category: Micro
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/construct.yml

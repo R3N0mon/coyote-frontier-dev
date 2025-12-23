@@ -1,9 +1,24 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Add Service Techfab, Add Biogen
+
 - type: vessel
   parent: BaseVessel
   id: Vitalis
-  name: CTC Vitalis
+  name: LL2 Vitalis
   description: A medium medical support vessel designed for cryogenic deployment.
-  price: 75000 #62702 0.2 75242.4
+  price: 179500 # Coyote pricing GridAppraisal 50710.04 + LL2 x1.6 + TileCost 98250(393x250) = 179386.064
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/vitalis.yml

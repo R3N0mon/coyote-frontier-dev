@@ -6,14 +6,18 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-# 
+# Coyote - pricing change
 - type: vessel
   id: Barge
   parent: BaseVessel
-  name: NC Barge
+  name: LL2 Barge
   description: A medium shipping vessel repurposed into a salvage bar.
-  price: 53500 # 44500 0.2 53400
+  price: 161500 # Coyote pricing GridAppraisal 41574.36 + LL2 1.7 + TileCost 90750(363x250) = 161426.412
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/barge.yml

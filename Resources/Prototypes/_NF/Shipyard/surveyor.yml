@@ -6,14 +6,19 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Remove wall EVA lockers, Remove Ore Bags, Remove Metal Benches, Remove Appraisal Gun, Added 2 Salvage Lockers With Hardsuits
+
 - type: vessel
   id: Surveyor
   parent: BaseVessel
-  name: FSB Surveyor
+  name: LL1 Surveyor
   description: A budget mining and recovery shuttle for corporations unwilling to operate outside of a shoestring budget. Brought to you by the Far Star Biotech corporation!
-  price: 19500 # 17518 0.06 18569.08
+  price: 34500 # Coyote pricing GridAppraisal 15809.86 + LL1 x1.2 + TileCost 15,500(124x125) = 34471.832
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/surveyor.yml

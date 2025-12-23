@@ -6,14 +6,18 @@
 # GitHub: tonotom1
 # Discord: rws
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-# hi
+# Coyote - Removed engi techfab, added nanomed, added medical bed
 - type: vessel
   id: Akupara
   parent: BaseVessel
-  name: UW Akupara
+  name: LL2 Akupara
   description: A medium full-feature botanical research biodome equipped to help a botanist fully interact with their plants in almost any way conceivable.
-  price: 56000 # 40091 0.4 56127.4
+  price: 148000 # Coyote pricing GridAppraisal 33264.86 + LL2 x1.5 + TileCost 98000(392x250) = 147897.29
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/akupara.yml

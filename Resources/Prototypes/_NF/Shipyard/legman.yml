@@ -6,14 +6,19 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Pricing Adjustment
+
 - type: vessel
   id: Legman
   parent: BaseVessel
-  name: LVHI Legman
+  name: LL0 Legman
   description: A small maneuverable shuttle with low operational costs for reporters who want to be first on a scene. Manufactured by Langstad-Voigt Heavy Industries.
-  price: 25500 # 10675 0.05 11208.75 temporarily very expensive until a more robust version can be made, at present it's an obscene cheap shuttle with a broadcaster.
+  price: 17000 # Coyote pricing GridAppraisal 10399.36 + LL0 x1.05 + TileCost 6300(63x100) = 17219.328
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/legman.yml

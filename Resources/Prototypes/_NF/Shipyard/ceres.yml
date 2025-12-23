@@ -6,14 +6,19 @@
 # GitHub: arimah
 # Discord: arimah
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Added 2 Potted Plant Spawns, Added Ice Box Machine, Added Cutter Machine
+
 - type: vessel
   id: Ceres
   parent: BaseVessel
-  name: BB Ceres
+  name: LL1 Ceres
   description: A medium-size, high-class restaurant ship with ample seating, integrated botany and a dining room for VIP guests
-  price: 72000 # ~10% markup, big luxury restaurant
+  price: 136500 # Coyote pricing GridAppraisal 55964.36 + LL1 x1.2 + TileCost 69375(555x125) = 136532.232
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/ceres.yml

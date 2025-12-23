@@ -6,20 +6,26 @@
 # GitHub: dustylens (https://github.com/dustylens)
 # Discord: dustylens
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Moved Seed Extractor, Added Additional Seed Extractor, Removed 1 Chemmaster, Moved Biogen, Removed Smart Fridge, Added Nanomed Plus, Added 2 Medical Beds, Added 2 Sinks
+
 - type: vessel
   id: Druid
   parent: BaseVessel
-  name: FSB Druid
+  name: LL2 Druid
   description: A medium service vessel providing botanical and chemical services to support the needs of the Frontier. Designed, developed and deployed by the Far Star Biotech company to render aid wherever it is needed.
-  price: 45000 # 15% t2.
+  price: 117000 # Coyote pricing GridAppraisal 27743.36 + LL2 x1.5 + TileCost 75500(302x250) = 117115.04
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/druid.yml
   guidebookPage: ShipyardDruid
   class:
   - Botany
+  - Medical #Coyote
   engine:
   - Uranium
 

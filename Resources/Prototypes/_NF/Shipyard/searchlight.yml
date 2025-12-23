@@ -6,14 +6,19 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
 # Shuttle Notes:
-#
+# Coyote - Pricing Update
+
 - type: vessel
   id: Searchlight
   parent: BaseVessel
-  name: LVHI Searchlight
+  name: LL1 Searchlight
   description: A small vessel outfitted for the search and recovery of wounded NT personnel. Manufactured by Langstad-Voigt Heavy Industries.
-  price: 34000 # 28300 0.2 33960
+  price: 46000 # Coyote pricing GridAppraisal 21699.36 + LL1 x1.15 + TileCost 21250(170x125) = 46204.264
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/searchlight.yml

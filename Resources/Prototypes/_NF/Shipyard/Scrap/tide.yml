@@ -1,9 +1,24 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Pricing Adjustment
+
 - type: vessel
   id: Tide
   parent: BaseVessel
-  name: SV Tide
+  name: LL0 Tide
   description: A cheaply made mass-produced shuttle made from salvaged wrecks. For the seasoned assistant.
-  price: 9700
+  price: 20500 # Coyote pricing GridAppraisal 6995.9 + LL0 x1.05 + TileCost 13200(132x100) = 20545.695
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/tide.yml

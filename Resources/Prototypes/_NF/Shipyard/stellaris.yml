@@ -1,9 +1,24 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Coyote Modifications
+# Github: R3N0mon
+# Discord: r3n0mon
+
+# Shuttle Notes:
+# Coyote - Add Service Techfab, Add Uniform Printer, Add Electric Range, Add Biogen, Add Hydro Tray, Add Meat spike, Add Variant Cube Box, Add Sink, Add 2 Wall Freezers, Add 2 Stacks Cloth
+
 - type: vessel
   id: Stellaris
   parent: BaseVessel
-  name: NT Stellaris
+  name: LL1 Stellaris
   description: A mobile theatre perfect for putting on any show.
-  price: 46000 # 42652 0.05 44784.6
+  price: 89000 # Coyote pricing GridAppraisal 39708.895 + LL1 x1.2 + TileCost 41500(332x125) = 89150.674
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/stellaris.yml
